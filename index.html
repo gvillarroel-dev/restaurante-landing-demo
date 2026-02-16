@@ -4,8 +4,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Restaurante de cocina casera y natural. Demo de landing page profesional."/>
-        <meta name="author" content="EPIC Restaurantes">
+		<meta name="description" content="La Cosecha - Restaurante de cocina casera y natural. Platos frescos, ambiente acogedor. Delivery y salón en Buenos Aires."/>
+        <meta name="author" content="La Cosecha Restaurante">
+
+        <meta property="og:title" content="La Cosecha - Restaurante & Café">
+        <meta property="og:description" content="Cocina casera con ingredientes frescos y naturales. Experiencia gastronómica auténtica en Buenos Aires.">
 
 		<!-- browser mobile -->
 		<meta name="theme-color" content="#d4a373" />
@@ -87,321 +90,360 @@
 				<div class="services__grid">
 					<article class="service-card" data-animate>
 						<div class="service-card__icon" aria-hidden="true">
-							<img src="./assets/icons/heart-pulse.svg" alt="" />
-						</div>
-						<h3 class="service-card__heading">Ensaladas Frescas</h3>
+                            <span style="font-size: 2.5rem;">🍹</span>
+                        </div>
+						<h3 class="service-card__heading">BEBIDAS REFRESCANTES</h3>
 						<p class="service-card__description">
-							Combinaciones únicas con vegetales orgánicos.
+							Jugos verdes hechos con verduras y frutas orgánicas
 						</p>
 					</article>
 					<article class="service-card" data-animate>
 						<div class="service-card__icon" aria-hidden="true">
-							<img src="./assets/icons/sunrise.svg" alt="" />
-						</div>
-						<h3 class="service-card__heading">Depresión</h3>
+                            <span style="font-size: 2.5rem;">🍛</span>
+                        </div>
+						<h3 class="service-card__heading">BOWLS ENERGÉTICOS</h3>
 						<p class="service-card__description">
-							Recuperación del ánimo y la energía.
+							Mezclas vibrantes de quinoa, frutas y semillas para un boost de vitalidad
 						</p>
 					</article>
 					<article class="service-card" data-animate>
 						<div class="service-card__icon" aria-hidden="true">
-							<img src="./assets/icons/smile.svg" alt="" />
-						</div>
-						<h3 class="service-card__heading">Autoestima</h3>
+                            <span style="font-size: 2.5rem;">🍜</span>
+                        </div>
+						<h3 class="service-card__heading">SOPAS NUTRITIVAS</h3>
 						<p class="service-card__description">
-							Fortalecimiento de la confianza personal.
+							 Cremas ligeras elaboradas con verduras de temporada y hierbas frescas
 						</p>
 					</article>
 					<article class="service-card" data-animate>
 						<div class="service-card__icon" aria-hidden="true">
-							<img src="./assets/icons/wind.svg" alt="" />
-						</div>
-						<h3 class="service-card__heading">Estrés</h3>
+                            <span style="font-size: 2.5rem;">🥮</span>
+                        </div>
+						<h3 class="service-card__heading">POSTRES SALUDABLES</h3>
 						<p class="service-card__description">
-							Herramientas para afrontar la presión.
+							Tartas de frutas frescas con base de avena y yogur natural
 						</p>
 					</article>
 					<article class="service-card" data-animate>
 						<div class="service-card__icon" aria-hidden="true">
-							<img src="./assets/icons/compass.svg" alt="" />
-						</div>
-						<h3 class="service-card__heading">Orientación</h3>
+                            <span style="font-size: 2.5rem;">🥗</span>
+                        </div>
+						<h3 class="service-card__heading">OPCIONES VEGGIE</h3>
 						<p class="service-card__description">
-							Claridad en proyectos de vida y vocación.
+							Hamburguesas de lentejas con vegetales asados y salsas caseras
 						</p>
 					</article>
 					<article class="service-card" data-animate>
 						<div class="service-card__icon" aria-hidden="true">
-							<img src="./assets/icons/users.svg" alt="" />
-						</div>
-						<h3 class="service-card__heading">Acompañamiento</h3>
+                            <span style="font-size: 2.5rem;">🍣</span>
+                        </div>
+						<h3 class="service-card__heading">PLATOS DE PESCADO FRESCO</h3>
 						<p class="service-card__description">
-							Soporte en crisis y transiciones vitales.
+							Filetes a la parrilla con hierbas aromáticas y guarniciones orgánicas
 						</p>
 					</article>
 				</div>
 			</section>
 
-			<section class="about" aria-labelledby="about-heading" data-animate id="about">
-				<div class="about__image">
-					<img
-						src="./assets/images/ana-profile.jpg"
-						alt="Ana Martínez - Psicóloga profesional"
-						loading="lazy"
-						width="300"
-					/>
-				</div>
-				<div class="about__content">
-					<h2 id="about-heading" class="about__heading">Sobre mí</h2>
-					<p class="about__name">Ana Martínez</p>
-					<p class="about__description">
-						Soy psicóloga especializada en acompañamiento
-						terapéutico con enfoque cognitivo-conductual. Mi
-						práctica se centra en crear un espacio de confianza
-						donde puedas explorar...
-					</p>
-				</div>
-			</section>
+			<section class="about" aria-labelledby="about-heading" id="about">
+                <div class="about__container">
+                    
+                    <!-- Columna Izquierda: Imagen grande -->
+                    <div class="about__main-image">
+                        <img src="./assets/images/about-image.jpg" 
+                            alt="Interior del restaurante La Cosecha"
+                            width="300"
+                            loading="lazy">
+                        <div class="about__overlay">
+                            <h2 class="about__title">SOBRE<br>NOSOTROS</h2>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha: Grid de contenido -->
+                    <div class="about__content-grid">
+                        
+                        <!-- Card 1: Historia & Metas -->
+                        <article class="about__card about__card--wide">
+                            <div class="about__card-image">
+                                <img src="./assets/images/about-history.png" 
+                                    alt="Comida de La Cosecha"
+                                    width="300">
+                            </div>
+                            <div class="about__card-text">
+                                <h3 class="about__card-title">NUESTRA HISTORIA & METAS</h3>
+                                <p class="about__card-description">
+                                    Desde sus humildes comienzos hasta un reconocido lugar para comer, 
+                                    La Cosecha combina tradición e innovación para ofrecer comidas 
+                                    lujosas e inolvidables con un servicio excepcional.
+                                </p>
+                            </div>
+                        </article>
+
+                        <!-- Card 2: Horarios de Servicio -->
+                        <article class="about__card">
+                            <h3 class="about__card-title">HORARIOS DE SERVICIO</h3>
+                            <div class="about__hours">
+                                <p><strong>Lunes - Jueves:</strong></p>
+                                <p class="about__time">07:00 AM - 11:00 PM</p>
+                                <p><strong>Viernes - Domingo:</strong></p>
+                                <p class="about__time">07:00 AM - 00:00 AM</p>
+                            </div>
+                            <a href="#reservas" class="about__btn">Reservar Mesa</a>
+                        </article>
+
+                        <!-- Card 3: Filosofía con imagen izquierda -->
+                        <article class="about__card about__card--horizontal">
+                            <div class="about__card-image">
+                                <img src="./assets/images/about-filosofy.png" 
+                                    alt="Chef preparando comida"
+                                    width="300">
+                            </div>
+                            <div class="about__card-text">
+                                <h3 class="about__card-title">NUESTRA FILOSOFÍA</h3>
+                                <p class="about__card-description">
+                                    Elaboramos platos con pasión, mezclando ingredientes frescos 
+                                    y sabores clásicos para una experiencia gastronómica refinada.
+                                </p>
+                            </div>
+                        </article>
+
+                        <!-- Card 4: Imagen decorativa -->
+                        <article class="about__card about__card--image">
+                            <img src="./assets/images/about-image2.jpg" 
+                                alt="Ambiente nocturno del restaurante"
+                                width="300">
+                        </article>
+
+                        <!-- Card 5: Redes Sociales -->
+                        <article class="about__card about__card--social">
+                            <h3 class="about__card-title">NUESTRAS REDES SOCIALES</h3>
+                            <div class="about__social-links">
+                                <a href="https://facebook.com/lacosecha" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social__link"
+                                aria-label="Facebook">
+                                    <img src="./assets/icons/facebook.svg" alt="Facebook" width="24">
+                                </a>
+                                <a href="https://instagram.com/lacosecha" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social__link"
+                                aria-label="Instagram">
+                                    <img src="./assets/icons/instagram.svg" alt="Instagram" width="24">
+                                </a>
+                                <a href="https://twitter.com/lacosecha" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social__link"
+                                aria-label="Twitter">
+                                    <img src="./assets/icons/twitter.svg" alt="Twitter" width="24">
+                                </a>
+                                <a href="https://youtube.com/lacosecha" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social__link"
+                                aria-label="YouTube">
+                                    <img src="./assets/icons/youtube.svg" alt="YouTube" width="24">
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
 			<section class="modalities" aria-labelledby="modalities-heading" id="services">
 				<h2 id="modalities-heading" class="modalities__heading">
-					Modalidad de Atención
+					CÓMO DISFRUTARNOS
 				</h2>
 				<p class="modalities__description">
-					Consultas adaptadas a tu disponibilidad y comodidad, para
-					que la distancia no sea un impedimento en tu proceso.
+					Elige la experiencia que más se adapte a ti. Siempre con la misma 
+                    calidad y calidez de La Cosecha.
 				</p>
 				<div class="modalities__grid">
 					<article class="modality-card" data-animate>
-						<div class="modality-card__icon" aria-hidden="true">
-							<img src="./assets/icons/building.svg" alt="" />
+						<div class="modality-card__image" aria-hidden="true">
+							<img src="./assets/images/service-local.jpg" alt="" />
 						</div>
-						<h3 class="modality-card__heading">Presencial</h3>
+						<h3 class="modality-card__heading">En nuestro salón</h3>
 						<p class="modality-card__description">
-							Un espacio cálido y privado en mi consultorio para
-							nuestras sesiones
+							Ideal para una cena romántica, un  almuerzo con amigos o simplemente un momento de paz con opciones  orgánicas que nutren el cuerpo y el alma.
 						</p>
 					</article>
-					<article class="modality-card" data-animate>
-						<div class="modality-card__icon" aria-hidden="true">
-							<img
-								src="./assets/icons/laptop-minimal.svg"
-								alt=""
-							/>
+                    <article class="modality-card" data-animate>
+						<div class="modality-card__image" aria-hidden="true">
+							<img src="./assets/images/service-delivery.jpg" alt="" />
 						</div>
-						<h3 class="modality-card__heading">Online</h3>
+						<h3 class="modality-card__heading">Delivery</h3>
 						<p class="modality-card__description">
-							A través de videollamada, con la misma
-							confidencialidad y cercanía desde donde te
-							encuentres
+							Disfruta de nuestras  ensaladas vibrantes, bowls energéticos o sopas reconfortantes desde la  comodidad de tu hogar, sin comprometer el sabor ni la calidad.
 						</p>
 					</article>
+                    <article class="modality-card" data-animate>
+						<div class="modality-card__image" aria-hidden="true">
+							<img src="./assets/images/service-events.png" alt="" />
+						</div>
+						<h3 class="modality-card__heading">Eventos Privados</h3>
+						<p class="modality-card__description">
+							Desde cócteles especiales hasta banquetes completos, nuestros chefs crean opciones a medida, garantizando un servicio impecable en un ambiente elegante,  haciendo que tu evento sea memorable
+						</p>
+					</article>
+					
 				</div>
 			</section>
 
-			<section class="contact" aria-labelledby="contact-heading" data-animate id="reservas">
-				<h2 id="contact-heading" class="contact__heading">
-					Comencemos tu camino
-				</h2>
-				<p class="contact__description">
-					Dar el primer paso es un acto de valentía. Estoy aquí para
-					acompañarte. No dudes en contactarme para agendar una
-					consulta o resolver cualquier duda.
-				</p>
+			<section class="contact" aria-labelledby="contact-heading" id="reservas">
+                <div class="contact__container">
+                    
+                    <!-- Columna Izquierda: Imagen decorativa -->
+                    <div class="contact__image">
+                        <img src="./assets/images/reserve.png" 
+                            alt="Mesa reservada en La Cosecha">
+                        <div class="contact__image-overlay">
+                            <h2 class="contact__image-title">RESERVAR<br>MESA</h2>
+                        </div>
+                    </div>
 
-				<div class="contact__container">
-					<div class="contact__form-wrapper">
-						<form
-							action="https://formsubmit.co/demo.portfolio.101@gmail.com"
-							method="POST"
-							class="contact__form"
-							id="contactForm"
-						>
-							<!-- campos ocultos -->
-							<input
-								type="hidden"
-								name="_subject"
-								value="Nueva consulta desde la web"
-							/>
-							<input
-								type="hidden"
-								name="_captcha"
-								value="false"
-							/>
-							<input type="hidden" name="_template" value="box" />
-							<input
-								type="text"
-								name="_honey"
-								style="display: none"
-							/>
+                    <!-- Columna Derecha: Formulario + Info compacta -->
+                    <div class="contact__form-container">
+                        
+                        <div class="contact__header">
+                            <h2 id="contact-heading" class="contact__heading">
+                                Haz tu Reserva
+                            </h2>
+                            <p class="contact__description">
+                                Completa el formulario y te confirmaremos en minutos.
+                            </p>
+                        </div>
 
-							<div class="form__group">
-								<label for="name" class="form__label"
-									>Nombre completo *</label
-								>
-								<input
-									type="text"
-									name="name"
-									id="name"
-									class="form__input"
-									required
-									placeholder="Ej: Jane Doe"
-								/>
-							</div>
-							<div class="form__group">
-								<label for="email" class="form__label"
-									>Email *</label
-								>
-								<input
-									type="email"
-									name="email"
-									id="email"
-									class="form__input"
-									required
-									placeholder="Ej: ejemplo@gmail.com"
-								/>
-							</div>
-							<div class="form__group">
-								<label for="phone" class="form__label"
-									>Teléfono (opcional)</label
-								>
-								<input
-									type="tel"
-									name="phone"
-									id="phone"
-									class="form__input"
-									placeholder="Ej: +54 11 1234 5678"
-								/>
-							</div>
-							<div class="form__group">
-								<label for="message" class="form__label"
-									>Mensaje *</label
-								>
-								<textarea
-									name="message"
-									id="message"
-									class="form__textarea"
-									rows="5"
-									required
-									placeholder="Cuéntame brevemente en qué puedo ayudarte..."
-								></textarea>
-							</div>
+                        <form action="https://formsubmit.co/demo.portfolio.101@gmail.com"
+                            method="POST"
+                            class="contact__form"
+                            id="contactForm">
+                            
+                            <!-- Campos ocultos -->
+                            <input type="hidden" name="_subject" value="Nueva reserva - La Cosecha">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="box">
+                            <input type="text" name="_honey" style="display: none">
 
-							<button type="submit" class="form__submit">
-								Enviar consulta
-							</button>
-						</form>
-					</div>
+                            <!-- Campos visibles en 2 columnas -->
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label for="name" class="form__label">Nombre</label>
+                                    <input type="text" id="name" name="name" 
+                                        class="form__input" required
+                                        placeholder="Jane Doe">
+                                </div>
+                                <div class="form__group">
+                                    <label for="phone" class="form__label">Número de teléfono</label>
+                                    <input type="tel" id="phone" name="phone" 
+                                        class="form__input" required
+                                        placeholder="+54 11 1234 5678">
+                                </div>
+                            </div>
 
-					<div class="contact__info">
-						<!-- qué esperar -->
-						<div class="contact__info-card">
-							<h3 class="contact__info-title">¿Qué esperar?</h3>
-							<p class="contact__info-text">
-								Te responderé en menos de 24 horas para agendar
-								una primera consulta. Podemos hablar sobre tus
-								necesidades y ver cómo puedo acompañarte en tu
-								proceso.
-							</p>
-						</div>
+                            <div class="form__group">
+                                <label for="email" class="form__label">Correo electrónico</label>
+                                <input type="email" id="email" name="email" 
+                                    class="form__input" required
+                                    placeholder="ejemplo@gmail.com">
+                            </div>
 
-						<!-- horarios -->
-						<div class="contact__info-card">
-							<h3 class="contact__info-title">
-								Horarios de atención
-							</h3>
-							<p class="contact__info-text">
-								<strong>Lunes a Viernes:</strong> 9:00 - 20:00
-								<br />
-								<strong>Sábados:</strong> 10:00 - 14:00 <br />
-								<strong>Domingos:</strong> Cerrado
-							</p>
-						</div>
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label for="date" class="form__label">Día de reservación</label>
+                                    <input type="date" id="date" name="date" 
+                                        class="form__input" required>
+                                </div>
+                                <div class="form__group">
+                                    <label for="time" class="form__label">Hora</label>
+                                    <input type="time" id="time" name="time" 
+                                        class="form__input" required>
+                                </div>
+                            </div>
 
-						<!-- contacto directo -->
-						<div class="contact__info-card">
-							<h3 class="contact__info-title">
-								Contacto directo
-							</h3>
-							<p
-								class="contact__info-text contact__info-text--small"
-							>
-								También puedes escribirme directamente:
-							</p>
-							<div class="contact__buttons">
-								<a
-									href="https://wa.me/1155512345"
-									target="_blank"
-									rel="noopener noreferrer"
-									class="contact__btn contact__btn--whatsapp"
-									aria-label="Contactar por WhatsApp"
-								>
-									<span class="contact__btn-icon">
-										<img
-											src="./assets/icons/phone.svg"
-											alt=""
-										/>
-									</span>
-									WhatsApp
-								</a>
-								<a
-									href="mailto:contacto@anamartinez-psi.com"
-									target="_blank"
-									rel="noopener noreferrer"
-									class="contact__btn contact__btn--email"
-									aria-label="Contactar por Email"
-								>
-									<span class="contact__btn-icon">
-										<img
-											src="./assets/icons/mail.svg"
-											alt=""
-										/>
-									</span>
-									Email
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                            <div class="form__group">
+                                <label for="guests" class="form__label">Número de invitados</label>
+                                <select id="guests" name="guests" class="form__input" required>
+                                    <option value="">Selecciona...</option>
+                                    <option value="1">1 persona</option>
+                                    <option value="2">2 personas</option>
+                                    <option value="3">3 personas</option>
+                                    <option value="4">4 personas</option>
+                                    <option value="5">5 personas</option>
+                                    <option value="6+">6 o más personas</option>
+                                </select>
+                            </div>
 
-			<section class="ethics" aria-labelledby="ethics-heading">
-				<h2 id="ethics-heading" class="ethics__heading">
-					Aviso ético y de confidencialidad
-				</h2>
-				<p class="ethics__description">
-					Todo lo compartido en sesión es estrictamente confidencial,
-					amparado por el secreto profesional. Mi práctica se rige por
-					el código de ética, garantizando un espacio seguro, de
-					respeto y libre de juicios.
-				</p>
-			</section>
+                            <div class="form__group">
+                                <label for="message" class="form__label">Pedidos especiales</label>
+                                <textarea id="message" name="message" 
+                                        class="form__textarea" rows="3"
+                                        placeholder="Alergias, preferencias, ocasión especial..."></textarea>
+                            </div>
+
+                            <button type="submit" class="form__submit">
+                                Reservar Mesa
+                            </button>
+                        </form>
+
+                        <!-- Info compacta abajo del formulario -->
+                        <div class="contact__info-compact">
+                            <div class="info__item">
+                                <span class="info__icon">📍</span>
+                                <div class="info__text">
+                                    <strong>Ubicación</strong>
+                                    <p>Av. Corrientes 1234, Palermo, Buenos Aires</p>
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <span class="info__icon">🕐</span>
+                                <div class="info__text">
+                                    <strong>Horarios</strong>
+                                    <p>Lun-Jue: 07:00-23:00 | Vie-Dom: 07:00-00:00</p>
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <span class="info__icon">📞</span>
+                                <div class="info__text">
+                                    <strong>Contacto directo</strong>
+                                    <div class="info__buttons">
+                                        <a href="https://wa.me/1155512345" 
+                                        target="_blank" 
+                                        class="info__btn">WhatsApp</a>
+                                        <a href="tel:+541155512345" 
+                                        class="info__btn">Llamar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 		</main>
 
 		<footer class="footer">
 			<p class="footer__copyright">
-				&copy; 2026 Ana Martínez - Psicología
-			</p>
-			<nav class="footer__links" aria-label="Enlaces de contacto">
-				<a
-					class="footer__link"
-					href="https://wa.me/1155512345"
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label="WhatsApp"
-				>
-					WhatsApp
-				</a>
-				<a
-					class="footer__link"
-					href="mailto:contacto@anamartinez-psi.com"
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label="Email"
-				>
-					Email
-				</a>
-			</nav>
+                &copy; 2026 La Cosecha - Restaurante & Café
+            </p>
+            <nav class="footer__links" aria-label="Enlaces de contacto">
+                <a class="footer__link" href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/icons/facebook.svg" alt="">
+                </a>
+                <a class="footer__link" href="https://www.instagram.com/lacosecha" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/icons/instagram.svg" alt="">
+                </a>
+                <a class="footer__link" 
+                href="#">
+                    <img src="./assets/icons/twitter.svg" alt="">
+                </a>
+                <a class="footer__link" 
+                href="#">
+                    <img src="./assets/icons/youtube.svg" alt="">
+                </a>
+            </nav>
 		</footer>
 		<script src="./js/animations.js"></script>
 		<script src="./js/form-validation.js"></script>
