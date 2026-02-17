@@ -180,13 +180,11 @@
                         </article>
 
                         <!-- Card 2: Horarios de Servicio -->
-                        <article class="about__card">
+                        <article class="about__card about__card--hours">
                             <h3 class="about__card-title">HORARIOS DE SERVICIO</h3>
                             <div class="about__hours">
-                                <p><strong>Lunes - Jueves:</strong></p>
-                                <p class="about__time">07:00 AM - 11:00 PM</p>
-                                <p><strong>Viernes - Domingo:</strong></p>
-                                <p class="about__time">07:00 AM - 00:00 AM</p>
+                                <p><strong>Lunes - Jueves:</strong> <span class="about__time">07:00 AM - 11:00 PM</span></p>
+                                <p><strong>Viernes - Domingo:</strong> <span class="about__time">07:00 AM - 00:00 AM</span></p>
                             </div>
                             <a href="#reservas" class="about__btn">Reservar Mesa</a>
                         </article>
@@ -265,28 +263,34 @@
 						<div class="modality-card__image" aria-hidden="true">
 							<img src="./assets/images/service-local.jpg" alt="" />
 						</div>
-						<h3 class="modality-card__heading">En nuestro salón</h3>
-						<p class="modality-card__description">
-							Ideal para una cena romántica, un  almuerzo con amigos o simplemente un momento de paz con opciones  orgánicas que nutren el cuerpo y el alma.
-						</p>
+						<div class="modality-card__content">
+                            <h3 class="modality-card__heading">En nuestro salón</h3>
+                            <p class="modality-card__description">
+                                Ideal para una cena romántica, un  almuerzo con amigos o simplemente un momento de paz con opciones  orgánicas que nutren el cuerpo y el alma.
+                            </p>
+                        </div>
 					</article>
                     <article class="modality-card" data-animate>
 						<div class="modality-card__image" aria-hidden="true">
 							<img src="./assets/images/service-delivery.jpg" alt="" />
 						</div>
-						<h3 class="modality-card__heading">Delivery</h3>
-						<p class="modality-card__description">
-							Disfruta de nuestras  ensaladas vibrantes, bowls energéticos o sopas reconfortantes desde la  comodidad de tu hogar, sin comprometer el sabor ni la calidad.
-						</p>
+						<div class="modality-card__content">
+                            <h3 class="modality-card__heading">Delivery</h3>
+                            <p class="modality-card__description">
+                                Disfruta de nuestras  ensaladas vibrantes, bowls energéticos o sopas reconfortantes desde la  comodidad de tu hogar, sin comprometer el sabor ni la calidad.
+                            </p>
+                        </div>
 					</article>
                     <article class="modality-card" data-animate>
 						<div class="modality-card__image" aria-hidden="true">
 							<img src="./assets/images/service-events.png" alt="" />
 						</div>
-						<h3 class="modality-card__heading">Eventos Privados</h3>
-						<p class="modality-card__description">
-							Desde cócteles especiales hasta banquetes completos, nuestros chefs crean opciones a medida, garantizando un servicio impecable en un ambiente elegante,  haciendo que tu evento sea memorable
-						</p>
+						<div class="modality-card__content">
+                            <h3 class="modality-card__heading">Eventos Privados</h3>
+                            <p class="modality-card__description">
+                                Desde cócteles especiales hasta banquetes completos, nuestros chefs crean opciones a medida, garantizando un servicio impecable en un ambiente elegante,  haciendo que tu evento sea memorable
+                            </p>
+                        </div>
 					</article>
 					
 				</div>
@@ -418,7 +422,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
