@@ -46,15 +46,15 @@ function showSuccessMessage() {
 
 	const title = document.createElement("h3");
 	title.classList.add("success__title");
-	title.textContent = "¡Mensaje enviado con éxito!";
+	title.textContent = "¡Gracias por tu reserva!";
 
 	const text = document.createElement("p");
 	text.classList.add("success__text");
-	text.textContent = "Gracias por contactarme. Te responderé a la brevedad, generalmente en menos de 24 horas.";
+	text.textContent = "¡Tu mesa en ha sido reservada exitosamente! Esperamos darle la bienvenida para una experiencia gastronómica inolvidable.";
 
 	const button = document.createElement("button");
 	button.classList.add("success__button");
-	button.textContent = "Enviar otro mensaje";
+	button.textContent = "Hacer otra reserva";
 	button.addEventListener("click", () => location.reload());
 
 	successMessage.appendChild(icon);
