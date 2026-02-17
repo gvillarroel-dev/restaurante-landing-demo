@@ -1,15 +1,15 @@
-# Landing Page - Psicóloga Profesional (Demo)
+# Landing Page - Restaurante La Cosecha (Demo)
 
-🌐 **[Ver demo en vivo →](https://psicologa-landing-demo.netlify.app)**
+🌐 **[Ver demo en vivo →](https://restaurante-landing-demo.netlify.app)**
 
 > **Nota:** Este es un proyecto demo con datos ficticios creado para
-> fines de portfolio. No representa una profesional real.
+> fines de portfolio. No representa un restaurante real.
 
 ## 📋 Descripción
 
 Landing page profesional desarrollada para demostrar habilidades en
-diseño y desarrollo frontend. Ideal para psicólogos, terapeutas,
-coaches y profesionales independientes.
+diseño y desarrollo frontend. Ideal para restaurantes, bares, cafeterías
+y negocios gastronómicos.
 
 ## ✨ Características
 
@@ -31,28 +31,27 @@ coaches y profesionales independientes.
 ## 📱 Secciones
 
 1. Hero con CTA
-2. Áreas de atención (6 servicios)
-3. Banner motivacional
-4. Sobre mí
-5. Modalidades (presencial/online)
-6. Contacto con formulario
-7. Ética profesional
+2. Menú destacado (6 platos/categorías)
+3. Banner inspiracional
+4. Nuestra historia
+5. Modalidades (salón/delivery/take away)
+6. Reservas con formulario
 
 ## 🚀 Instalación
 
 ```bash
-git clone https://github.com/gvillarroel-dev/psicologa-landing-demo.git
-cd psicologa-landing-demo
+git clone https://github.com/gvillarroel-dev/restaurante-landing-demo.git
+cd restaurante-landing-demo
 # Abrir index.html en navegador
 ```
 
 ## 💼 Personalizable para:
 
-- Psicólogos y terapeutas
-- Coaches y mentores
-- Consultores
-- Profesionales de la salud
-- Servicios personales
+- Restaurantes y bodegones
+- Bares y cervecerías
+- Cafeterías y pastelerías
+- Servicios de catering
+- Negocios gastronómicos en general
 
 ## 📄 Licencia
 
